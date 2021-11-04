@@ -10,13 +10,21 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
+    "style-dictionary": "^3.0.3",
+    "token-transformer": "^0.0.13",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-transform-light": "npx token-transformer tokens.json tokens/light.json global,light,theme global",
+    "build-transform-dark": "npx token-transformer tokens.json tokens/dark.json global,dark,theme global",
+    "build-transform": "npm run build-transform-light && npm run build-transform-dark",
+    "build-sd": "node build.js",
+    "build-tw": "postcss ./styles.css -o ./tailwind.css",
+    "build-all": "npm run build-transform && npm run build-sd && npm run build-tw"
   },
   "eslintConfig": {
     "extends": [
