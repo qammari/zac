@@ -22526,60 +22526,40 @@ video {
   --tw-numeric-fraction: stacked-fractions;
 }
 
-.leading-3 {
-  line-height: .75rem;
+.leading-16 {
+  line-height: 16px;
 }
 
-.leading-4 {
-  line-height: 1rem;
+.leading-20 {
+  line-height: 20px;
 }
 
-.leading-5 {
-  line-height: 1.25rem;
+.leading-24 {
+  line-height: 24px;
 }
 
-.leading-6 {
-  line-height: 1.5rem;
+.leading-28 {
+  line-height: 28px;
 }
 
-.leading-7 {
-  line-height: 1.75rem;
+.leading-32 {
+  line-height: 32px;
 }
 
-.leading-8 {
-  line-height: 2rem;
+.leading-40 {
+  line-height: 40px;
 }
 
-.leading-9 {
-  line-height: 2.25rem;
+.leading-48 {
+  line-height: 48px;
 }
 
-.leading-10 {
-  line-height: 2.5rem;
+.leading-64 {
+  line-height: 64px;
 }
 
-.leading-none {
-  line-height: 1;
-}
-
-.leading-tight {
-  line-height: 1.25;
-}
-
-.leading-snug {
-  line-height: 1.375;
-}
-
-.leading-normal {
-  line-height: 1.5;
-}
-
-.leading-relaxed {
-  line-height: 1.625;
-}
-
-.leading-loose {
-  line-height: 2;
+.leading-80 {
+  line-height: 80px;
 }
 
 .tracking-tighter {
@@ -53766,60 +53746,40 @@ video {
     --tw-numeric-fraction: stacked-fractions;
   }
 
-  .sm\:leading-3 {
-    line-height: .75rem;
+  .sm\:leading-16 {
+    line-height: 16px;
   }
 
-  .sm\:leading-4 {
-    line-height: 1rem;
+  .sm\:leading-20 {
+    line-height: 20px;
   }
 
-  .sm\:leading-5 {
-    line-height: 1.25rem;
+  .sm\:leading-24 {
+    line-height: 24px;
   }
 
-  .sm\:leading-6 {
-    line-height: 1.5rem;
+  .sm\:leading-28 {
+    line-height: 28px;
   }
 
-  .sm\:leading-7 {
-    line-height: 1.75rem;
+  .sm\:leading-32 {
+    line-height: 32px;
   }
 
-  .sm\:leading-8 {
-    line-height: 2rem;
+  .sm\:leading-40 {
+    line-height: 40px;
   }
 
-  .sm\:leading-9 {
-    line-height: 2.25rem;
+  .sm\:leading-48 {
+    line-height: 48px;
   }
 
-  .sm\:leading-10 {
-    line-height: 2.5rem;
+  .sm\:leading-64 {
+    line-height: 64px;
   }
 
-  .sm\:leading-none {
-    line-height: 1;
-  }
-
-  .sm\:leading-tight {
-    line-height: 1.25;
-  }
-
-  .sm\:leading-snug {
-    line-height: 1.375;
-  }
-
-  .sm\:leading-normal {
-    line-height: 1.5;
-  }
-
-  .sm\:leading-relaxed {
-    line-height: 1.625;
-  }
-
-  .sm\:leading-loose {
-    line-height: 2;
+  .sm\:leading-80 {
+    line-height: 80px;
   }
 
   .sm\:tracking-tighter {
@@ -84994,60 +84954,40 @@ video {
     --tw-numeric-fraction: stacked-fractions;
   }
 
-  .md\:leading-3 {
-    line-height: .75rem;
+  .md\:leading-16 {
+    line-height: 16px;
   }
 
-  .md\:leading-4 {
-    line-height: 1rem;
+  .md\:leading-20 {
+    line-height: 20px;
   }
 
-  .md\:leading-5 {
-    line-height: 1.25rem;
+  .md\:leading-24 {
+    line-height: 24px;
   }
 
-  .md\:leading-6 {
-    line-height: 1.5rem;
+  .md\:leading-28 {
+    line-height: 28px;
   }
 
-  .md\:leading-7 {
-    line-height: 1.75rem;
+  .md\:leading-32 {
+    line-height: 32px;
   }
 
-  .md\:leading-8 {
-    line-height: 2rem;
+  .md\:leading-40 {
+    line-height: 40px;
   }
 
-  .md\:leading-9 {
-    line-height: 2.25rem;
+  .md\:leading-48 {
+    line-height: 48px;
   }
 
-  .md\:leading-10 {
-    line-height: 2.5rem;
+  .md\:leading-64 {
+    line-height: 64px;
   }
 
-  .md\:leading-none {
-    line-height: 1;
-  }
-
-  .md\:leading-tight {
-    line-height: 1.25;
-  }
-
-  .md\:leading-snug {
-    line-height: 1.375;
-  }
-
-  .md\:leading-normal {
-    line-height: 1.5;
-  }
-
-  .md\:leading-relaxed {
-    line-height: 1.625;
-  }
-
-  .md\:leading-loose {
-    line-height: 2;
+  .md\:leading-80 {
+    line-height: 80px;
   }
 
   .md\:tracking-tighter {
@@ -116222,60 +116162,40 @@ video {
     --tw-numeric-fraction: stacked-fractions;
   }
 
-  .lg\:leading-3 {
-    line-height: .75rem;
+  .lg\:leading-16 {
+    line-height: 16px;
   }
 
-  .lg\:leading-4 {
-    line-height: 1rem;
+  .lg\:leading-20 {
+    line-height: 20px;
   }
 
-  .lg\:leading-5 {
-    line-height: 1.25rem;
+  .lg\:leading-24 {
+    line-height: 24px;
   }
 
-  .lg\:leading-6 {
-    line-height: 1.5rem;
+  .lg\:leading-28 {
+    line-height: 28px;
   }
 
-  .lg\:leading-7 {
-    line-height: 1.75rem;
+  .lg\:leading-32 {
+    line-height: 32px;
   }
 
-  .lg\:leading-8 {
-    line-height: 2rem;
+  .lg\:leading-40 {
+    line-height: 40px;
   }
 
-  .lg\:leading-9 {
-    line-height: 2.25rem;
+  .lg\:leading-48 {
+    line-height: 48px;
   }
 
-  .lg\:leading-10 {
-    line-height: 2.5rem;
+  .lg\:leading-64 {
+    line-height: 64px;
   }
 
-  .lg\:leading-none {
-    line-height: 1;
-  }
-
-  .lg\:leading-tight {
-    line-height: 1.25;
-  }
-
-  .lg\:leading-snug {
-    line-height: 1.375;
-  }
-
-  .lg\:leading-normal {
-    line-height: 1.5;
-  }
-
-  .lg\:leading-relaxed {
-    line-height: 1.625;
-  }
-
-  .lg\:leading-loose {
-    line-height: 2;
+  .lg\:leading-80 {
+    line-height: 80px;
   }
 
   .lg\:tracking-tighter {
@@ -147450,60 +147370,40 @@ video {
     --tw-numeric-fraction: stacked-fractions;
   }
 
-  .xl\:leading-3 {
-    line-height: .75rem;
+  .xl\:leading-16 {
+    line-height: 16px;
   }
 
-  .xl\:leading-4 {
-    line-height: 1rem;
+  .xl\:leading-20 {
+    line-height: 20px;
   }
 
-  .xl\:leading-5 {
-    line-height: 1.25rem;
+  .xl\:leading-24 {
+    line-height: 24px;
   }
 
-  .xl\:leading-6 {
-    line-height: 1.5rem;
+  .xl\:leading-28 {
+    line-height: 28px;
   }
 
-  .xl\:leading-7 {
-    line-height: 1.75rem;
+  .xl\:leading-32 {
+    line-height: 32px;
   }
 
-  .xl\:leading-8 {
-    line-height: 2rem;
+  .xl\:leading-40 {
+    line-height: 40px;
   }
 
-  .xl\:leading-9 {
-    line-height: 2.25rem;
+  .xl\:leading-48 {
+    line-height: 48px;
   }
 
-  .xl\:leading-10 {
-    line-height: 2.5rem;
+  .xl\:leading-64 {
+    line-height: 64px;
   }
 
-  .xl\:leading-none {
-    line-height: 1;
-  }
-
-  .xl\:leading-tight {
-    line-height: 1.25;
-  }
-
-  .xl\:leading-snug {
-    line-height: 1.375;
-  }
-
-  .xl\:leading-normal {
-    line-height: 1.5;
-  }
-
-  .xl\:leading-relaxed {
-    line-height: 1.625;
-  }
-
-  .xl\:leading-loose {
-    line-height: 2;
+  .xl\:leading-80 {
+    line-height: 80px;
   }
 
   .xl\:tracking-tighter {
@@ -178678,60 +178578,40 @@ video {
     --tw-numeric-fraction: stacked-fractions;
   }
 
-  .\32xl\:leading-3 {
-    line-height: .75rem;
+  .\32xl\:leading-16 {
+    line-height: 16px;
   }
 
-  .\32xl\:leading-4 {
-    line-height: 1rem;
+  .\32xl\:leading-20 {
+    line-height: 20px;
   }
 
-  .\32xl\:leading-5 {
-    line-height: 1.25rem;
+  .\32xl\:leading-24 {
+    line-height: 24px;
   }
 
-  .\32xl\:leading-6 {
-    line-height: 1.5rem;
+  .\32xl\:leading-28 {
+    line-height: 28px;
   }
 
-  .\32xl\:leading-7 {
-    line-height: 1.75rem;
+  .\32xl\:leading-32 {
+    line-height: 32px;
   }
 
-  .\32xl\:leading-8 {
-    line-height: 2rem;
+  .\32xl\:leading-40 {
+    line-height: 40px;
   }
 
-  .\32xl\:leading-9 {
-    line-height: 2.25rem;
+  .\32xl\:leading-48 {
+    line-height: 48px;
   }
 
-  .\32xl\:leading-10 {
-    line-height: 2.5rem;
+  .\32xl\:leading-64 {
+    line-height: 64px;
   }
 
-  .\32xl\:leading-none {
-    line-height: 1;
-  }
-
-  .\32xl\:leading-tight {
-    line-height: 1.25;
-  }
-
-  .\32xl\:leading-snug {
-    line-height: 1.375;
-  }
-
-  .\32xl\:leading-normal {
-    line-height: 1.5;
-  }
-
-  .\32xl\:leading-relaxed {
-    line-height: 1.625;
-  }
-
-  .\32xl\:leading-loose {
-    line-height: 2;
+  .\32xl\:leading-80 {
+    line-height: 80px;
   }
 
   .\32xl\:tracking-tighter {
