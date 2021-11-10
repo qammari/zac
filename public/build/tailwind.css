@@ -22529,28 +22529,48 @@ video {
   line-height: 128px;
 }
 
-.tracking-tighter {
-  letter-spacing: -0.05em;
+.tracking-0 {
+  letter-spacing: 0px;
 }
 
-.tracking-tight {
-  letter-spacing: -0.025em;
+.-tracking-1\.28 {
+  letter-spacing: -1.28px;
 }
 
-.tracking-normal {
-  letter-spacing: 0em;
+.-tracking-1\.04 {
+  letter-spacing: -1.04px;
 }
 
-.tracking-wide {
-  letter-spacing: 0.025em;
+.-tracking-0\.80 {
+  letter-spacing: -0.80px;
 }
 
-.tracking-wider {
-  letter-spacing: 0.05em;
+.-tracking-0\.64 {
+  letter-spacing: -0.64px;
 }
 
-.tracking-widest {
-  letter-spacing: 0.1em;
+.-tracking-0\.48 {
+  letter-spacing: -0.48px;
+}
+
+.-tracking-0\.24 {
+  letter-spacing: -0.24px;
+}
+
+.-tracking-0\.16 {
+  letter-spacing: -0.16px;
+}
+
+.-tracking-0\.08 {
+  letter-spacing: -0.08px;
+}
+
+.tracking-0\.08 {
+  letter-spacing: 0.08px;
+}
+
+.tracking-0\.16 {
+  letter-spacing: 0.16px;
 }
 
 .text-transparent {
@@ -53716,28 +53736,48 @@ video {
     line-height: 128px;
   }
 
-  .sm\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .sm\:tracking-0 {
+    letter-spacing: 0px;
   }
 
-  .sm\:tracking-tight {
-    letter-spacing: -0.025em;
+  .sm\:-tracking-1\.28 {
+    letter-spacing: -1.28px;
   }
 
-  .sm\:tracking-normal {
-    letter-spacing: 0em;
+  .sm\:-tracking-1\.04 {
+    letter-spacing: -1.04px;
   }
 
-  .sm\:tracking-wide {
-    letter-spacing: 0.025em;
+  .sm\:-tracking-0\.80 {
+    letter-spacing: -0.80px;
   }
 
-  .sm\:tracking-wider {
-    letter-spacing: 0.05em;
+  .sm\:-tracking-0\.64 {
+    letter-spacing: -0.64px;
   }
 
-  .sm\:tracking-widest {
-    letter-spacing: 0.1em;
+  .sm\:-tracking-0\.48 {
+    letter-spacing: -0.48px;
+  }
+
+  .sm\:-tracking-0\.24 {
+    letter-spacing: -0.24px;
+  }
+
+  .sm\:-tracking-0\.16 {
+    letter-spacing: -0.16px;
+  }
+
+  .sm\:-tracking-0\.08 {
+    letter-spacing: -0.08px;
+  }
+
+  .sm\:tracking-0\.08 {
+    letter-spacing: 0.08px;
+  }
+
+  .sm\:tracking-0\.16 {
+    letter-spacing: 0.16px;
   }
 
   .sm\:text-transparent {
@@ -84891,28 +84931,48 @@ video {
     line-height: 128px;
   }
 
-  .md\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .md\:tracking-0 {
+    letter-spacing: 0px;
   }
 
-  .md\:tracking-tight {
-    letter-spacing: -0.025em;
+  .md\:-tracking-1\.28 {
+    letter-spacing: -1.28px;
   }
 
-  .md\:tracking-normal {
-    letter-spacing: 0em;
+  .md\:-tracking-1\.04 {
+    letter-spacing: -1.04px;
   }
 
-  .md\:tracking-wide {
-    letter-spacing: 0.025em;
+  .md\:-tracking-0\.80 {
+    letter-spacing: -0.80px;
   }
 
-  .md\:tracking-wider {
-    letter-spacing: 0.05em;
+  .md\:-tracking-0\.64 {
+    letter-spacing: -0.64px;
   }
 
-  .md\:tracking-widest {
-    letter-spacing: 0.1em;
+  .md\:-tracking-0\.48 {
+    letter-spacing: -0.48px;
+  }
+
+  .md\:-tracking-0\.24 {
+    letter-spacing: -0.24px;
+  }
+
+  .md\:-tracking-0\.16 {
+    letter-spacing: -0.16px;
+  }
+
+  .md\:-tracking-0\.08 {
+    letter-spacing: -0.08px;
+  }
+
+  .md\:tracking-0\.08 {
+    letter-spacing: 0.08px;
+  }
+
+  .md\:tracking-0\.16 {
+    letter-spacing: 0.16px;
   }
 
   .md\:text-transparent {
@@ -116066,28 +116126,48 @@ video {
     line-height: 128px;
   }
 
-  .lg\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .lg\:tracking-0 {
+    letter-spacing: 0px;
   }
 
-  .lg\:tracking-tight {
-    letter-spacing: -0.025em;
+  .lg\:-tracking-1\.28 {
+    letter-spacing: -1.28px;
   }
 
-  .lg\:tracking-normal {
-    letter-spacing: 0em;
+  .lg\:-tracking-1\.04 {
+    letter-spacing: -1.04px;
   }
 
-  .lg\:tracking-wide {
-    letter-spacing: 0.025em;
+  .lg\:-tracking-0\.80 {
+    letter-spacing: -0.80px;
   }
 
-  .lg\:tracking-wider {
-    letter-spacing: 0.05em;
+  .lg\:-tracking-0\.64 {
+    letter-spacing: -0.64px;
   }
 
-  .lg\:tracking-widest {
-    letter-spacing: 0.1em;
+  .lg\:-tracking-0\.48 {
+    letter-spacing: -0.48px;
+  }
+
+  .lg\:-tracking-0\.24 {
+    letter-spacing: -0.24px;
+  }
+
+  .lg\:-tracking-0\.16 {
+    letter-spacing: -0.16px;
+  }
+
+  .lg\:-tracking-0\.08 {
+    letter-spacing: -0.08px;
+  }
+
+  .lg\:tracking-0\.08 {
+    letter-spacing: 0.08px;
+  }
+
+  .lg\:tracking-0\.16 {
+    letter-spacing: 0.16px;
   }
 
   .lg\:text-transparent {
@@ -147241,28 +147321,48 @@ video {
     line-height: 128px;
   }
 
-  .xl\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .xl\:tracking-0 {
+    letter-spacing: 0px;
   }
 
-  .xl\:tracking-tight {
-    letter-spacing: -0.025em;
+  .xl\:-tracking-1\.28 {
+    letter-spacing: -1.28px;
   }
 
-  .xl\:tracking-normal {
-    letter-spacing: 0em;
+  .xl\:-tracking-1\.04 {
+    letter-spacing: -1.04px;
   }
 
-  .xl\:tracking-wide {
-    letter-spacing: 0.025em;
+  .xl\:-tracking-0\.80 {
+    letter-spacing: -0.80px;
   }
 
-  .xl\:tracking-wider {
-    letter-spacing: 0.05em;
+  .xl\:-tracking-0\.64 {
+    letter-spacing: -0.64px;
   }
 
-  .xl\:tracking-widest {
-    letter-spacing: 0.1em;
+  .xl\:-tracking-0\.48 {
+    letter-spacing: -0.48px;
+  }
+
+  .xl\:-tracking-0\.24 {
+    letter-spacing: -0.24px;
+  }
+
+  .xl\:-tracking-0\.16 {
+    letter-spacing: -0.16px;
+  }
+
+  .xl\:-tracking-0\.08 {
+    letter-spacing: -0.08px;
+  }
+
+  .xl\:tracking-0\.08 {
+    letter-spacing: 0.08px;
+  }
+
+  .xl\:tracking-0\.16 {
+    letter-spacing: 0.16px;
   }
 
   .xl\:text-transparent {
@@ -178416,28 +178516,48 @@ video {
     line-height: 128px;
   }
 
-  .\32xl\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .\32xl\:tracking-0 {
+    letter-spacing: 0px;
   }
 
-  .\32xl\:tracking-tight {
-    letter-spacing: -0.025em;
+  .\32xl\:-tracking-1\.28 {
+    letter-spacing: -1.28px;
   }
 
-  .\32xl\:tracking-normal {
-    letter-spacing: 0em;
+  .\32xl\:-tracking-1\.04 {
+    letter-spacing: -1.04px;
   }
 
-  .\32xl\:tracking-wide {
-    letter-spacing: 0.025em;
+  .\32xl\:-tracking-0\.80 {
+    letter-spacing: -0.80px;
   }
 
-  .\32xl\:tracking-wider {
-    letter-spacing: 0.05em;
+  .\32xl\:-tracking-0\.64 {
+    letter-spacing: -0.64px;
   }
 
-  .\32xl\:tracking-widest {
-    letter-spacing: 0.1em;
+  .\32xl\:-tracking-0\.48 {
+    letter-spacing: -0.48px;
+  }
+
+  .\32xl\:-tracking-0\.24 {
+    letter-spacing: -0.24px;
+  }
+
+  .\32xl\:-tracking-0\.16 {
+    letter-spacing: -0.16px;
+  }
+
+  .\32xl\:-tracking-0\.08 {
+    letter-spacing: -0.08px;
+  }
+
+  .\32xl\:tracking-0\.08 {
+    letter-spacing: 0.08px;
+  }
+
+  .\32xl\:tracking-0\.16 {
+    letter-spacing: 0.16px;
   }
 
   .\32xl\:text-transparent {

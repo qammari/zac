@@ -43,6 +43,19 @@ module.exports = {
 
             return obj;
         },
+        letterSpacing: () => {
+            const jsonLetterSpacing = tokens.global.letterSpacing;
+            const letterSpacingKeys = Object.keys(tokens.global.letterSpacing);
+            const obj = {};
+
+            letterSpacingKeys.forEach((letterSpacing) => {
+                return (obj[
+                    `${jsonLetterSpacing[letterSpacing]['value']}`
+                ] = `${jsonLetterSpacing[letterSpacing]['value']}px`);
+            });
+
+            return obj;
+        },
 
         extend: {},
     },
