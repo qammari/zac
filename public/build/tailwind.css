@@ -16139,7 +16139,7 @@
   line-height: 128px
 }
 
-.tracking-none {
+.tracking-0 {
   letter-spacing: 0px
 }
 
@@ -41533,7 +41533,7 @@
     line-height: 128px
   }
 
-  .sm\:tracking-none {
+  .sm\:tracking-0 {
     letter-spacing: 0px
   }
 
@@ -66915,7 +66915,7 @@
     line-height: 128px
   }
 
-  .md\:tracking-none {
+  .md\:tracking-0 {
     letter-spacing: 0px
   }
 
@@ -92297,7 +92297,7 @@
     line-height: 128px
   }
 
-  .lg\:tracking-none {
+  .lg\:tracking-0 {
     letter-spacing: 0px
   }
 
@@ -117679,7 +117679,7 @@
     line-height: 128px
   }
 
-  .xl\:tracking-none {
+  .xl\:tracking-0 {
     letter-spacing: 0px
   }
 
@@ -143061,7 +143061,7 @@
     line-height: 128px
   }
 
-  .\32xl\:tracking-none {
+  .\32xl\:tracking-0 {
     letter-spacing: 0px
   }
 

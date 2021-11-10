@@ -55,7 +55,7 @@
           "value": 24
         },
         "letterSpacing": {
-          "value": "$letterSpacing.0"
+          "value": 0
         },
         "paragraphSpacing": {
           "value": 0
@@ -277,7 +277,7 @@
           "value": 24
         },
         "letterSpacing": {
-          "value": "$letterSpacing.0"
+          "value": 0
         },
         "paragraphSpacing": {
           "value": 0
@@ -379,7 +379,7 @@
           "value": 24
         },
         "letterSpacing": {
-          "value": "$letterSpacing.0"
+          "value": 0
         },
         "paragraphSpacing": {
           "value": 0
@@ -441,7 +441,7 @@
           "value": 24
         },
         "letterSpacing": {
-          "value": "$letterSpacing.0"
+          "value": 0
         },
         "paragraphSpacing": {
           "value": 0
@@ -543,7 +543,7 @@
           "value": 24
         },
         "letterSpacing": {
-          "value": "$letterSpacing.0"
+          "value": 0
         },
         "paragraphSpacing": {
           "value": 0

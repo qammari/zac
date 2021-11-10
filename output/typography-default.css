@@ -15,7 +15,7 @@
   --theme-heading-16-font-size: 16;
   --theme-heading-16-font-weight: semibold;
   --theme-heading-16-line-height: 24;
-  --theme-heading-16-letter-spacing: $letterSpacing.0;
+  --theme-heading-16-letter-spacing: 0;
   --theme-heading-16-paragraph-spacing: 0;
   --theme-heading-20-font-family: Inter;
   --theme-heading-20-font-size: 20;
@@ -81,7 +81,7 @@
   --theme-text-16-font-size: 16;
   --theme-text-16-font-weight: regular;
   --theme-text-16-line-height: 24;
-  --theme-text-16-letter-spacing: $letterSpacing.0;
+  --theme-text-16-letter-spacing: 0;
   --theme-text-16-paragraph-spacing: 0;
   --theme-text-20-font-family: Inter;
   --theme-text-20-font-size: 20;
@@ -111,7 +111,7 @@
   --theme-element-16-font-size: 16;
   --theme-element-16-font-weight: medium;
   --theme-element-16-line-height: 24;
-  --theme-element-16-letter-spacing: $letterSpacing.0;
+  --theme-element-16-letter-spacing: 0;
   --theme-element-16-paragraph-spacing: 0;
   --theme-code-12-font-family: Roboto Mono;
   --theme-code-12-font-size: 12;
@@ -129,7 +129,7 @@
   --theme-code-16-font-size: 16;
   --theme-code-16-font-weight: regular;
   --theme-code-16-line-height: 24;
-  --theme-code-16-letter-spacing: $letterSpacing.0;
+  --theme-code-16-letter-spacing: 0;
   --theme-code-16-paragraph-spacing: 0;
   --theme-code-20-font-family: Roboto Mono;
   --theme-code-20-font-size: 20;
@@ -159,6 +159,6 @@
   --theme-token-16-font-size: 16;
   --theme-token-16-font-weight: bold;
   --theme-token-16-line-height: 24;
-  --theme-token-16-letter-spacing: $letterSpacing.0;
+  --theme-token-16-letter-spacing: 0;
   --theme-token-16-paragraph-spacing: 0;
 }
