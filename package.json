@@ -1,8 +1,9 @@
 {
-  "name": "@zyda/zac-core",
+  "name": "@zyda-design/zac-core",
   "version": "0.0.1",
   "description": "ZAC Core Engine",
   "author": "Zyda",
+  "private": false,
   "license": "MIT",
   "scripts": {
     "build-transform-light": "npx token-transformer tokens.json tokens/light.json global,light,theme global",
@@ -18,6 +19,7 @@
     "url": "git+https://github.com/qammari/zac.git"
   },
   "dependencies": {
+    "@zyda-design/zac-core": "^0.0.1",
     "postcss-cli": "^9.0.1",
     "save-dev": "^0.0.1-security",
     "style-dictionary": "^3.0.3",
@@ -28,5 +30,15 @@
     "postcss": "^8.3.11",
     "postcss-import": "^14.0.2",
     "tailwindcss": "^2.2.19"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/qammari/zac/issues"
+  },
+  "homepage": "https://github.com/qammari/zac#readme",
+  "main": "index.js",
+  "keywords": [
+    "zyda",
+    "design",
+    "system"
+  ]
 }
