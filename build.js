@@ -50,9 +50,9 @@ function getStyleDictionaryConfig(theme) {
 
 console.log('Build started...');
 
-// PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
+// PROCESS THE DESIGN TOKENS FOR THE DIFFERENT BRANDS AND PLATFORMS
 
-['global', 'dark', 'light'].map(function (theme) {
+['global', 'dark', 'light', 'typography-default'].map(function (theme) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);

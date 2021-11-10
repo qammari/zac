@@ -4,6 +4,19 @@ module.exports = {
     purge: [],
     darkMode: false, // or 'media' or 'class'
     theme: {
+        spacing: () => {
+            const jsonSpacing = tokens.global.spacing;
+            const spacingKeys = Object.keys(tokens.global.spacing);
+            const obj = {};
+
+            spacingKeys.forEach((spacing) => {
+                return (obj[
+                    `${spacing}`
+                ] = `${jsonSpacing[spacing]['value']}px`);
+            });
+
+            return obj;
+        },
         fontWeight: () => {
             const jsonFontWeights = tokens.global.fontWeights;
             const fontWeightsKeys = Object.keys(tokens.global.fontWeights);
@@ -11,7 +24,7 @@ module.exports = {
 
             fontWeightsKeys.forEach((fontWeight) => {
                 return (obj[
-                    `${jsonFontWeights[fontWeight]['value']}`
+                    `${fontWeight}`
                 ] = `${jsonFontWeights[fontWeight]['value']}`);
             });
 
@@ -24,7 +37,7 @@ module.exports = {
 
             fontSizesKeys.forEach((fontSize) => {
                 return (obj[
-                    `${jsonFontSizes[fontSize]['value']}`
+                    `${fontSize}`
                 ] = `${jsonFontSizes[fontSize]['value']}px`);
             });
 
@@ -37,7 +50,7 @@ module.exports = {
 
             lineHeightsKeys.forEach((lineHeight) => {
                 return (obj[
-                    `${jsonLineHeights[lineHeight]['value']}`
+                    `${lineHeight}`
                 ] = `${jsonLineHeights[lineHeight]['value']}px`);
             });
 
@@ -50,8 +63,21 @@ module.exports = {
 
             letterSpacingKeys.forEach((letterSpacing) => {
                 return (obj[
-                    `${jsonLetterSpacing[letterSpacing]['value']}`
+                    `${letterSpacing}`
                 ] = `${jsonLetterSpacing[letterSpacing]['value']}px`);
+            });
+
+            return obj;
+        },
+        borderRadius: () => {
+            const jsonborderRadius = tokens.global.borderRadius;
+            const borderRadiusKeys = Object.keys(tokens.global.borderRadius);
+            const obj = {};
+
+            borderRadiusKeys.forEach((borderRadius) => {
+                return (obj[
+                    `${borderRadius}`
+                ] = `${jsonborderRadius[borderRadius]['value']}px`);
             });
 
             return obj;
