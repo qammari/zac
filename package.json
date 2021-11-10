@@ -1,7 +1,9 @@
 {
-  "name": "zac",
+  "name": "@zyda/zac-core",
   "version": "0.0.1",
-  "private": true,
+  "description": "ZAC Core Engine",
+  "author": "Zyda",
+  "license": "MIT",
   "scripts": {
     "build-transform-light": "npx token-transformer tokens.json tokens/light.json global,light,theme global",
     "build-transform-dark": "npx token-transformer tokens.json tokens/dark.json global,dark,theme global",
