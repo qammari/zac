@@ -1,6 +1,6 @@
 {
   "name": "@zyda-design/zac-core",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "ZAC Core Engine",
   "author": "Zyda",
   "private": false,
@@ -16,10 +16,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qammari/zac.git"
+    "url": "git+https://github.com/qammari/zac-core.git"
   },
   "dependencies": {
     "@zyda-design/zac-core": "^0.0.1",
+    "nanocolors": "^0.2.13",
     "postcss-cli": "^9.0.1",
     "save-dev": "^0.0.1-security",
     "style-dictionary": "^3.0.3",
@@ -35,7 +36,7 @@
     "url": "https://github.com/qammari/zac/issues"
   },
   "homepage": "https://github.com/qammari/zac#readme",
-  "main": "index.js",
+  "main": "index.html",
   "keywords": [
     "zyda",
     "design",
