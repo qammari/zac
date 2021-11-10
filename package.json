@@ -19,7 +19,7 @@
     "url": "git+https://github.com/qammari/zac-core.git"
   },
   "dependencies": {
-    "@zyda-design/zac-core": "^0.0.5",
+    "@zyda-design/zac-core": "^0.0.7",
     "nanocolors": "^0.2.13",
     "postcss-cli": "^9.0.1",
     "save-dev": "^0.0.1-security",
