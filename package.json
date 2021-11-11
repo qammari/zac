@@ -1,6 +1,6 @@
 {
   "name": "@zyda-design/zac-core",
-  "version": "0.0.191",
+  "version": "0.0.27",
   "description": "ZAC Core Engine",
   "author": "Zyda",
   "private": false,
@@ -22,7 +22,7 @@
   "dependencies": {
     "@zyda-design/zac-core": "*",
     "nanocolors": "^0.2.13",
-    "postcss-cli": "*",
+    "postcss-cli": "^9.0.1",
     "save-dev": "^0.0.1-security",
     "style-dictionary": "^3.0.3",
     "token-transformer": "^0.0.13"
