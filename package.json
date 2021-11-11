@@ -33,9 +33,9 @@
     "tailwindcss": "^2.2.19"
   },
   "bugs": {
-    "url": "https://github.com/qammari/zac/issues"
+    "url": "https://github.com/qammari/zac-core/issues"
   },
-  "homepage": "https://github.com/qammari/zac#readme",
+  "homepage": "https://github.com/qammari/zac-core#readme",
   "main": "index.html",
   "keywords": [
     "zyda",
