@@ -200,14 +200,14 @@ module.exports = {
             return obj;
         },
         borderRadius: () => {
-            const jsonBorderRadius = tokens.global.borderRadius;
+            const jsonborderRadius = tokens.global.borderRadius;
             const borderRadiusKeys = Object.keys(tokens.global.borderRadius);
             const obj = {};
 
             borderRadiusKeys.forEach((borderRadius) => {
                 return (obj[
                     `${borderRadius}`
-                ] = `var(--border-radius-${jsonBorderRadius[borderRadius]['value']})`);
+                ] = `${jsonborderRadius[borderRadius]['value']}px`);
             });
 
             return obj;
