@@ -2,106 +2,136 @@ const tokens = require('./tokens.json');
 
 module.exports = {
     purge: [],
-    darkMode: false, // or 'media' or 'class'
+    darkMode: "class",
     theme: {
         colors: {
-            black: `${tokens.global.colors.black.value}`,
-            white: `${tokens.global.colors.white.value}`,
+            black: "var(--colors-black)",
+            white: "var(--colors-white)",
             gray: {
-                '100': `${tokens.global.colors.gray[100].value}`,
-                '200': `${tokens.global.colors.gray[200].value}`,
-                '300': `${tokens.global.colors.gray[300].value}`,
-                '400': `${tokens.global.colors.gray[400].value}`,
-                '500': `${tokens.global.colors.gray[500].value}`,
-                '600': `${tokens.global.colors.gray[600].value}`,
-                '700': `${tokens.global.colors.gray[700].value}`,
-                '800': `${tokens.global.colors.gray[800].value}`,
-                '900': `${tokens.global.colors.gray[900].value}`,
-                '1000': `${tokens.global.colors.gray[1000].value}`,
+                "100": "var(--colors-gray-100)",
+                "200": "var(--colors-gray-200)",
+                "300": "var(--colors-gray-300)",
+                "400": "var(--colors-gray-400)",
+                "500": "var(--colors-gray-500)",
+                "600": "var(--colors-gray-600)",
+                "700": "var(--colors-gray-700)",
+                "800": "var(--colors-gray-800)",
+                "900": "var(--colors-gray-900)",
+                "1000": "var(--colors-gray-1000)",
             },
             blue: {
-                '100': `${tokens.global.colors.blue[100].value}`,
-                '200': `${tokens.global.colors.blue[200].value}`,
-                '300': `${tokens.global.colors.blue[300].value}`,
-                '400': `${tokens.global.colors.blue[400].value}`,
-                '500': `${tokens.global.colors.blue[500].value}`,
-                '600': `${tokens.global.colors.blue[600].value}`,
-                '700': `${tokens.global.colors.blue[700].value}`,
-                '800': `${tokens.global.colors.blue[800].value}`,
-                '900': `${tokens.global.colors.blue[900].value}`,
-                '1000': `${tokens.global.colors.blue[1000].value}`,
+                "100": "var(--colors-blue-100)",
+                "200": "var(--colors-blue-200)",
+                "300": "var(--colors-blue-300)",
+                "400": "var(--colors-blue-400)",
+                "500": "var(--colors-blue-500)",
+                "600": "var(--colors-blue-600)",
+                "700": "var(--colors-blue-700)",
+                "800": "var(--colors-blue-800)",
+                "900": "var(--colors-blue-900)",
+                "1000": "var(--colors-blue-1000)",
             },
             teal: {
-                '100': `${tokens.global.colors.teal[100].value}`,
-                '200': `${tokens.global.colors.teal[200].value}`,
-                '300': `${tokens.global.colors.teal[300].value}`,
-                '400': `${tokens.global.colors.teal[400].value}`,
-                '500': `${tokens.global.colors.teal[500].value}`,
-                '600': `${tokens.global.colors.teal[600].value}`,
-                '700': `${tokens.global.colors.teal[700].value}`,
-                '800': `${tokens.global.colors.teal[800].value}`,
-                '900': `${tokens.global.colors.teal[900].value}`,
-                '1000': `${tokens.global.colors.teal[1000].value}`,
+                "100": "var(--colors-teal-100)",
+                "200": "var(--colors-teal-200)",
+                "300": "var(--colors-teal-300)",
+                "400": "var(--colors-teal-400)",
+                "500": "var(--colors-teal-500)",
+                "600": "var(--colors-teal-600)",
+                "700": "var(--colors-teal-700)",
+                "800": "var(--colors-teal-800)",
+                "900": "var(--colors-teal-900)",
+                "1000": "var(--colors-teal-1000)",
             },
             green: {
-                '100': `${tokens.global.colors.green[100].value}`,
-                '200': `${tokens.global.colors.green[200].value}`,
-                '300': `${tokens.global.colors.green[300].value}`,
-                '400': `${tokens.global.colors.green[400].value}`,
-                '500': `${tokens.global.colors.green[500].value}`,
-                '600': `${tokens.global.colors.green[600].value}`,
-                '700': `${tokens.global.colors.green[700].value}`,
-                '800': `${tokens.global.colors.green[800].value}`,
-                '900': `${tokens.global.colors.green[900].value}`,
-                '1000': `${tokens.global.colors.green[1000].value}`,
+                "100": "var(--colors-green-100)",
+                "200": "var(--colors-green-200)",
+                "300": "var(--colors-green-300)",
+                "400": "var(--colors-green-400)",
+                "500": "var(--colors-green-500)",
+                "600": "var(--colors-green-600)",
+                "700": "var(--colors-green-700)",
+                "800": "var(--colors-green-800)",
+                "900": "var(--colors-green-900)",
+                "1000": "var(--colors-green-1000)",
             },
             yellow: {
-                '100': `${tokens.global.colors.yellow[100].value}`,
-                '200': `${tokens.global.colors.yellow[200].value}`,
-                '300': `${tokens.global.colors.yellow[300].value}`,
-                '400': `${tokens.global.colors.yellow[400].value}`,
-                '500': `${tokens.global.colors.yellow[500].value}`,
-                '600': `${tokens.global.colors.yellow[600].value}`,
-                '700': `${tokens.global.colors.yellow[700].value}`,
-                '800': `${tokens.global.colors.yellow[800].value}`,
-                '900': `${tokens.global.colors.yellow[900].value}`,
-                '1000': `${tokens.global.colors.yellow[1000].value}`,
+                "100": "var(--colors-yellow-100)",
+                "200": "var(--colors-yellow-200)",
+                "300": "var(--colors-yellow-300)",
+                "400": "var(--colors-yellow-400)",
+                "500": "var(--colors-yellow-500)",
+                "600": "var(--colors-yellow-600)",
+                "700": "var(--colors-yellow-700)",
+                "800": "var(--colors-yellow-800)",
+                "900": "var(--colors-yellow-900)",
+                "1000": "var(--colors-yellow-1000)",
             },
             orange: {
-                '100': `${tokens.global.colors.orange[100].value}`,
-                '200': `${tokens.global.colors.orange[200].value}`,
-                '300': `${tokens.global.colors.orange[300].value}`,
-                '400': `${tokens.global.colors.orange[400].value}`,
-                '500': `${tokens.global.colors.orange[500].value}`,
-                '600': `${tokens.global.colors.orange[600].value}`,
-                '700': `${tokens.global.colors.orange[700].value}`,
-                '800': `${tokens.global.colors.orange[800].value}`,
-                '900': `${tokens.global.colors.orange[900].value}`,
-                '1000': `${tokens.global.colors.orange[1000].value}`,
+                "100": "var(--colors-orange-100)",
+                "200": "var(--colors-orange-200)",
+                "300": "var(--colors-orange-300)",
+                "400": "var(--colors-orange-400)",
+                "500": "var(--colors-orange-500)",
+                "600": "var(--colors-orange-600)",
+                "700": "var(--colors-orange-700)",
+                "800": "var(--colors-orange-800)",
+                "900": "var(--colors-orange-900)",
+                "1000": "var(--colors-orange-1000)",
             },
             red: {
-                '100': `${tokens.global.colors.red[100].value}`,
-                '200': `${tokens.global.colors.red[200].value}`,
-                '300': `${tokens.global.colors.red[300].value}`,
-                '400': `${tokens.global.colors.red[400].value}`,
-                '500': `${tokens.global.colors.red[500].value}`,
-                '600': `${tokens.global.colors.red[600].value}`,
-                '700': `${tokens.global.colors.red[700].value}`,
-                '800': `${tokens.global.colors.red[800].value}`,
-                '900': `${tokens.global.colors.red[900].value}`,
-                '1000': `${tokens.global.colors.red[1000].value}`,
+                "100": "var(--colors-red-100)",
+                "200": "var(--colors-red-200)",
+                "300": "var(--colors-red-300)",
+                "400": "var(--colors-red-400)",
+                "500": "var(--colors-red-500)",
+                "600": "var(--colors-red-600)",
+                "700": "var(--colors-red-700)",
+                "800": "var(--colors-red-800)",
+                "900": "var(--colors-red-900)",
+                "1000": "var(--colors-red-1000)",
             },
             purple: {
-                '100': `${tokens.global.colors.purple[100].value}`,
-                '200': `${tokens.global.colors.purple[200].value}`,
-                '300': `${tokens.global.colors.purple[300].value}`,
-                '400': `${tokens.global.colors.purple[400].value}`,
-                '500': `${tokens.global.colors.purple[500].value}`,
-                '600': `${tokens.global.colors.purple[600].value}`,
-                '700': `${tokens.global.colors.purple[700].value}`,
-                '800': `${tokens.global.colors.purple[800].value}`,
-                '900': `${tokens.global.colors.purple[900].value}`,
-                '1000': `${tokens.global.colors.purple[1000].value}`,
+                "100": "var(--colors-purple-100)",
+                "200": "var(--colors-purple-200)",
+                "300": "var(--colors-purple-300)",
+                "400": "var(--colors-purple-400)",
+                "500": "var(--colors-purple-500)",
+                "600": "var(--colors-purple-600)",
+                "700": "var(--colors-purple-700)",
+                "800": "var(--colors-purple-800)",
+                "900": "var(--colors-purple-900)",
+                "1000": "var(--colors-purple-1000)",
+            },
+            positive: {
+                "absolute": "var(--theme-positive-absolute)",
+                "primary": "var(--theme-positive-primary)",
+                "secondary": "var(--theme-positive-secondary)",
+                "tertiary": "var(--theme-positive-tertiary)",
+                "quaternary": "var(--theme-positive-quaternary)",
+                "background": "var(--theme-positive-background)",
+            },
+            negative: {
+                "absolute": "var(--theme-negative-absolute)",
+                "primary": "var(--theme-negative-primary)",
+                "secondary": "var(--theme-negative-secondary)",
+                "tertiary": "var(--theme-negative-tertiary)",
+                "quaternary": "var(--theme-negative-quaternary)",
+                "background": "var(--theme-negative-background)",
+            },
+            accent: {
+                "primary": "var(--theme-accent-primary)",
+                "hover": "var(--theme-accent-hover)",
+                "pressed": "var(--theme-accent-pressed)",
+                "opacity-50": "var(--theme-accent-opacity-50)",
+                "opacity-30": "var(--theme-accent-opacity-30)",
+                "opacity-10": "var(--theme-accent-opacity-10)",
+            },
+            support: {
+                "info": "var(--theme-support-info)",
+                "success": "var(--theme-support-success)",
+                "warning": "var(--theme-support-warning)",
+                "danger": "var(--theme-support-danger)",
             },
         },
         spacing: () => {
@@ -112,7 +142,7 @@ module.exports = {
             spacingKeys.forEach((spacing) => {
                 return (obj[
                     `${spacing}`
-                ] = `${jsonSpacing[spacing]['value']}px`);
+                ] = `var(--spacing-${spacing})`);
             });
 
             return obj;
@@ -155,7 +185,7 @@ module.exports = {
             fontWeightsKeys.forEach((fontWeight) => {
                 return (obj[
                     `${fontWeight}`
-                ] = `${jsonFontWeights[fontWeight]['value']}`);
+                ] = `var(--font-weights-${fontWeight})`);
             });
 
             return obj;
@@ -168,20 +198,20 @@ module.exports = {
             fontSizesKeys.forEach((fontSize) => {
                 return (obj[
                     `${fontSize}`
-                ] = `${jsonFontSizes[fontSize]['value']}px`);
+                ] = `var(--font-sizes-${fontSize})`);
             });
 
             return obj;
         },
         lineHeight: () => {
             const jsonLineHeights = tokens.global.lineHeights;
-            const lineHeightsKeys = Object.keys(tokens.global.lineHeights);
+            const lineHeightKeys = Object.keys(tokens.global.lineHeights);
             const obj = {};
 
-            lineHeightsKeys.forEach((lineHeight) => {
+            lineHeightKeys.forEach((lineHeight) => {
                 return (obj[
                     `${lineHeight}`
-                ] = `${jsonLineHeights[lineHeight]['value']}px`);
+                ] = `var(--line-heights-${lineHeight})`);
             });
 
             return obj;
@@ -194,20 +224,20 @@ module.exports = {
             letterSpacingKeys.forEach((letterSpacing) => {
                 return (obj[
                     `${letterSpacing}`
-                ] = `${jsonLetterSpacing[letterSpacing]['value']}px`);
+                ] = `var(--letter-spacing-${letterSpacing})`);
             });
 
             return obj;
         },
         borderRadius: () => {
-            const jsonborderRadius = tokens.global.borderRadius;
+            const jsonBorderRadius = tokens.global.borderRadius;
             const borderRadiusKeys = Object.keys(tokens.global.borderRadius);
             const obj = {};
 
             borderRadiusKeys.forEach((borderRadius) => {
                 return (obj[
                     `${borderRadius}`
-                ] = `${jsonborderRadius[borderRadius]['value']}px`);
+                ] = `var(--border-radius-${borderRadius})`);
             });
 
             return obj;
