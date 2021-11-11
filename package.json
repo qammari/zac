@@ -13,7 +13,7 @@
     "build-sd": "node build.js",
     "build-tw": "postcss css/tailwind.css -o public/build/tailwind.css",
     "build": "npm run build-transform && npm run build-sd && npm run build-tw",
-    "publish": "npm run version patch && npm publish --access public"
+    "publish": "npm version-patch && npm publish --access public"
   },
   "repository": {
     "type": "git",
