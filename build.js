@@ -34,14 +34,14 @@ function getStyleDictionaryConfig(theme) {
     "platforms": {
       "web": {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `output/`,
+        "buildPath": `production/`,
         "files": [{
           "destination": `${theme}.json`,
           "format": "createArray"
         }, {
           "destination": `${theme}.css`,
           "format": "css/variables",
-          "selector": `.${theme}-theme`
+          "selector": `.${theme}`
         }]
       }
     }
